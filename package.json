@@ -1,0 +1,33 @@
+{
+  "name": "hkreact",
+  "version": "1.0.0",
+  "description": "This is The statrted point",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshko03/React.git"
+  },
+  "keywords": [
+    "harsh",
+    "react"
+  ],
+  "author": "harsh khatri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshko03/React/issues"
+  },
+  "homepage": "https://github.com/Harshko03/React#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}

@@ -1,28 +1,30 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// Now we will use javascript in jsx and component and react elem in each other
-const number = 1000;
-const elem = (
-  <h1>This is elem</h1>
-);
-const Title = () => (
-  
-<h2>{number}</h2>
-);
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="logo-container">
+        <img className="logo" src="https://static.vecteezy.com/system/resources/previews/014/798/827/original/hamburger-logos-colorful-burger-logo-for-restaurant-or-cafe-logo-design-template-vector.jpg" />
+      </div>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact US</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-const HeadingComponent = () => (
-  <div id="container">
-    {elem}
-  <Title></Title>
-    <Title />
-    {Title()}
-<h1 id="heading">Hello Harsh This is react functional component</h1>
-</div>
-);
-
-
+const AppLayout = () => {
+  return <div className="app">
+    <Header/>
+  </div>;
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(<AppLayout/>);

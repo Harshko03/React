@@ -1,3 +1,23 @@
 #heading{
     color:brown;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+   
+}
+.logo{
+    width: 200px;
+}
+.nav-items >ul {
+    display: flex;
+    gap: 10;
+    list-style-type: none;
+    font-size: 24px;
+}
+.nav-items >ul>li{
+    padding: 10px;
+    margin: 10px;
+    
+}
